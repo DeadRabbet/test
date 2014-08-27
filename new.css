@@ -1,0 +1,64 @@
+#container {
+	height: 100%;
+	width: 1000px;
+	border: solid #123456 5px;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#title {
+	color: #123456;
+	text-align: center;
+	margin-top: 25px;
+}
+#leftSide {
+	height: auto;
+	width: 48%;
+	float: left;
+	border: solid #123456 1px;
+	margin-left: 12px;
+}
+#leftNav {
+	height: 50px;
+	margin: 5px;
+	width: 100%;
+	float: left;
+}
+#rightSide {
+	height: auto;
+	width: 48%;
+	float: right;
+	border: solid #123456 1px;
+	margin-right: 12px;
+}
+#stats {
+	padding: 5px;
+}
+.info {
+	display: inline;
+	text-align: left;
+}
+.mineBlock {
+	height: 110px;
+	width: 110px;
+	margin: 2px;
+	text-align: center;
+}
+.sellButton {
+	height: 50px;
+	width: 200px;
+	margin: 5px;
+}
+.nav {
+	height: 50px;
+	width: 50px;
+	border: solid black 1px;
+	border-radius: 100%;
+	display: inline;
+}
+.hidden {
+	display: none;
+}
+.visible {
+	display: inital;
+}
