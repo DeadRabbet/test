@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title>New Design Layout</title>
+	<link rel="stylesheet" type="text/css" href="css/New.css">
+	<script src="js/New.js"></script>
+</head>
+
+<body>
+	<div id="container">
+		<div id="title">
+			<h1>Simple Miner Incremental Dev.</h1>
+		</div>
+		
+		<div id="leftSide">
+			<div id="leftNav">
+				<input class="nav" type="button" value="Mines" onClick="menuMines();">
+				<input class="nav" type="button" value="Market" onClick="menuMarket();">
+			</div>
+			<div id="mines">
+				<input class="mineBlock" type="button" value="Mine Dirt" onClick="mineDirt();">
+				<input class="mineBlock" type="button" value="Mine Gravel" onClick="mineGravel();">
+				<input class="mineBlock" type="button" value="Mine Stone" onClick="mineStone();">
+				<input class="mineBlock" type="button" value="Mine Granite" onClick="mineGranite();">
+			</div>
+			<div id="market" class="hidden">
+				<input class="sellButton" type="button" value="Sell Dirt" onClick="sellDirt();">
+				Price: 0.5 <br />
+				<input class="sellButton" type="button" value="Sell Gravel" onClick="sellGravel();">
+				Price: 1 <br />
+				<input class="sellButton" type="button" value="Sell Stone" onClick="sellStone();">
+				Price: 3 <br />
+				<input class="sellButton" type="button" value="Sell Granite" onClick="sellGranite();">
+				Price: 5 <br />
+			</div>
+		</div>
+		
+		<div id="rightSide">
+			<div id="rightNav">
+				<input class="nav" type="button" value="Stats" onClick="menuStats();">
+				<input class="nav" type="button" value="Settings" onClick="menuSettings();">
+			</div>
+			<div id="stats">
+				<div class="info">
+					Money: <div id="money" class="info">0</div>
+				</div>
+				<hr />
+				<div class="info">
+					Dirt: <div id="dirt" class="info">0</div>
+				</div>
+				<br />
+				<div class="info">
+					Gravel: <div id="gravel" class="info">0</div>
+				</div>
+				<br />
+				<div class="info">
+					Stone: <div id="stone" class="info">0</div>
+				</div>
+				<br />
+				<div class="info">
+					Granite: <div id="granite" class="info">0</div>
+				</div>
+				<br />
+			</div>
+			<div id="settings" class="hidden">
+				<input class="mineBlock" type="button" value="Save" onClick="save();">
+				<input class="mineBlock" type="button" value="Load" onClick="load();">
+				<input class="mineBlock" type="button" value="Reset" onClick="reset();">
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
